@@ -10,8 +10,9 @@
 body{
     font-family: 'Segoe UI', sans-serif;
     background:
-    radial-gradient(circle at top right, rgba(212,175,55,0.15), transparent 30%),
-    linear-gradient(135deg,#050505,#0b1220,#111111);
+    radial-gradient(circle at 20% 20%, rgba(212,175,55,0.18), transparent 25%),
+    radial-gradient(circle at 80% 80%, rgba(0,140,255,0.12), transparent 30%),
+    linear-gradient(135deg,#030303,#0b1426,#050505);
     color:#ffffff;
     line-height:1.7;
 }
@@ -33,10 +34,30 @@ header{
 }
 
 
-.logo{
-    font-size:25px;
-    font-weight:800;
-    color:#D4AF37;
+.logo span{
+    background:#D4AF37;
+    color:#000;
+    padding:8px 12px;
+    border-radius:50%;
+    margin-right:8px;
+    font-weight:900;
+}
+
+
+.social a{
+    display:inline-block;
+    margin:15px;
+    padding:10px 20px;
+    border:1px solid #D4AF37;
+    border-radius:25px;
+    color:white;
+    text-decoration:none;
+}
+
+
+.social a:hover{
+    background:#D4AF37;
+    color:#000;
 }
 
 
