@@ -1,4 +1,4 @@
-/* Abdul Mannan SEO - Premium Black Gold Theme */
+/* Abdul Manan SEO - Premium Black Gold Theme */
 
 *{
     margin:0;
@@ -8,17 +8,17 @@
 }
 
 body{
-    font-family:'Segoe UI', sans-serif;
+font-family:'Segoe UI',sans-serif;
 
-    background:
-    radial-gradient(circle at 15% 20%, rgba(212,175,55,0.20), transparent 30%),
-    radial-gradient(circle at 85% 80%, rgba(0,120,255,0.15), transparent 35%),
-    linear-gradient(135deg,#020202,#111827,#050505);
+background:
+radial-gradient(circle at top left, rgba(212,175,55,0.20), transparent 30%),
+radial-gradient(circle at bottom right, rgba(0,90,180,0.20), transparent 35%),
+linear-gradient(135deg,#020202,#081426,#000000);
 
-    color:#ffffff;
-    line-height:1.7;
+color:white;
+line-height:1.7;
+
 }
-
 
 /* HEADER */
 
@@ -347,5 +347,32 @@ text-decoration:none;
 background:#D4AF37;
 
 color:black;
+
+}
+@media(max-width:768px){
+
+.btn{
+    display:block;
+    width:90%;
+    margin:12px auto;
+    text-align:center;
+}
+
+
+.contact-buttons .btn{
+    margin:15px auto;
+}
+
+
+.social a{
+    width:90%;
+    margin:10px auto;
+}
+
+
+.hero .buttons{
+    margin-top:25px;
+}
+
 
 }
