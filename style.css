@@ -8,11 +8,13 @@
 }
 
 body{
-    font-family: 'Segoe UI', sans-serif;
+    font-family:'Segoe UI', sans-serif;
+
     background:
-    radial-gradient(circle at 20% 20%, rgba(212,175,55,0.18), transparent 25%),
-    radial-gradient(circle at 80% 80%, rgba(0,140,255,0.12), transparent 30%),
-    linear-gradient(135deg,#030303,#0b1426,#050505);
+    radial-gradient(circle at 15% 20%, rgba(212,175,55,0.20), transparent 30%),
+    radial-gradient(circle at 85% 80%, rgba(0,120,255,0.15), transparent 35%),
+    linear-gradient(135deg,#020202,#111827,#050505);
+
     color:#ffffff;
     line-height:1.7;
 }
